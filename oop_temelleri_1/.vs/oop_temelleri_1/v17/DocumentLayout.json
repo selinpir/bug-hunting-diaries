@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\masaustu_yedek\\c#\\oop_temelleri_1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D5519A64-1168-43DA-B17F-AC1B9C10751B}|oop_temelleri_1\\oop_temelleri_1.csproj|d:\\masaustu_yedek\\c#\\oop_temelleri_1\\oop_temelleri_1\\views\\default\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D5519A64-1168-43DA-B17F-AC1B9C10751B}|oop_temelleri_1\\oop_temelleri_1.csproj|solutionrelative:oop_temelleri_1\\views\\default\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5519A64-1168-43DA-B17F-AC1B9C10751B}|oop_temelleri_1\\oop_temelleri_1.csproj|d:\\masaustu_yedek\\c#\\oop_temelleri_1\\oop_temelleri_1\\views\\default\\urunler.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D5519A64-1168-43DA-B17F-AC1B9C10751B}|oop_temelleri_1\\oop_temelleri_1.csproj|solutionrelative:oop_temelleri_1\\views\\default\\urunler.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5519A64-1168-43DA-B17F-AC1B9C10751B}|oop_temelleri_1\\oop_temelleri_1.csproj|d:\\masaustu_yedek\\c#\\oop_temelleri_1\\oop_temelleri_1\\views\\default\\musteriler.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D5519A64-1168-43DA-B17F-AC1B9C10751B}|oop_temelleri_1\\oop_temelleri_1.csproj|solutionrelative:oop_temelleri_1\\views\\default\\musteriler.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5519A64-1168-43DA-B17F-AC1B9C10751B}|oop_temelleri_1\\oop_temelleri_1.csproj|d:\\masaustu_yedek\\c#\\oop_temelleri_1\\oop_temelleri_1\\controllers\\defaultcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5519A64-1168-43DA-B17F-AC1B9C10751B}|oop_temelleri_1\\oop_temelleri_1.csproj|solutionrelative:oop_temelleri_1\\controllers\\defaultcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 189,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Musteriler.cshtml",
+              "DocumentMoniker": "D:\\masaustu_yedek\\c#\\oop_temelleri_1\\oop_temelleri_1\\Views\\Default\\Musteriler.cshtml",
+              "RelativeDocumentMoniker": "oop_temelleri_1\\Views\\Default\\Musteriler.cshtml",
+              "ToolTip": "D:\\masaustu_yedek\\c#\\oop_temelleri_1\\oop_temelleri_1\\Views\\Default\\Musteriler.cshtml",
+              "RelativeToolTip": "oop_temelleri_1\\Views\\Default\\Musteriler.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-17T12:55:27.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Urunler.cshtml",
+              "DocumentMoniker": "D:\\masaustu_yedek\\c#\\oop_temelleri_1\\oop_temelleri_1\\Views\\Default\\Urunler.cshtml",
+              "RelativeDocumentMoniker": "oop_temelleri_1\\Views\\Default\\Urunler.cshtml",
+              "ToolTip": "D:\\masaustu_yedek\\c#\\oop_temelleri_1\\oop_temelleri_1\\Views\\Default\\Urunler.cshtml",
+              "RelativeToolTip": "oop_temelleri_1\\Views\\Default\\Urunler.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-17T12:31:16.92Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\masaustu_yedek\\c#\\oop_temelleri_1\\oop_temelleri_1\\Views\\Default\\Index.cshtml",
+              "RelativeDocumentMoniker": "oop_temelleri_1\\Views\\Default\\Index.cshtml",
+              "ToolTip": "D:\\masaustu_yedek\\c#\\oop_temelleri_1\\oop_temelleri_1\\Views\\Default\\Index.cshtml",
+              "RelativeToolTip": "oop_temelleri_1\\Views\\Default\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-17T12:01:05.705Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DefaultController.cs",
+              "DocumentMoniker": "D:\\masaustu_yedek\\c#\\oop_temelleri_1\\oop_temelleri_1\\Controllers\\DefaultController.cs",
+              "RelativeDocumentMoniker": "oop_temelleri_1\\Controllers\\DefaultController.cs",
+              "ToolTip": "D:\\masaustu_yedek\\c#\\oop_temelleri_1\\oop_temelleri_1\\Controllers\\DefaultController.cs",
+              "RelativeToolTip": "oop_temelleri_1\\Controllers\\DefaultController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwCYAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T11:41:34.842Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
