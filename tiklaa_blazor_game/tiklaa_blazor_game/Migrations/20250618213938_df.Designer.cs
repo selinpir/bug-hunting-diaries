@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using TiklaaGame.Data;
 
@@ -11,9 +12,11 @@ using TiklaaGame.Data;
 namespace tiklaa_blazor_game.Migrations
 {
     [DbContext(typeof(TiklaaDbContext))]
-    partial class TiklaaDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250618213938_df")]
+    partial class df
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

@@ -3,32 +3,24 @@
   "WorkspaceRootPath": "D:\\masaustu_yedek\\GITHUB\\bug-hunting-diaries\\tiklaa_blazor_game\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\masaustu_yedek\\GITHUB\\bug-hunting-diaries\\tiklaa_blazor_game\\tiklaa_blazor_game\\Migrations\\20250618215816_son.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:tiklaa_blazor_game\\Migrations\\20250618215816_son.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7EA07A63-1EF9-405D-93FB-5C3ABDD56D78}|tiklaa_blazor_game\\tiklaa_blazor_game.csproj|d:\\masaustu_yedek\\github\\bug-hunting-diaries\\tiklaa_blazor_game\\tiklaa_blazor_game\\components\\pages\\game.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7EA07A63-1EF9-405D-93FB-5C3ABDD56D78}|tiklaa_blazor_game\\tiklaa_blazor_game.csproj|solutionrelative:tiklaa_blazor_game\\components\\pages\\game.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7EA07A63-1EF9-405D-93FB-5C3ABDD56D78}|tiklaa_blazor_game\\tiklaa_blazor_game.csproj|d:\\masaustu_yedek\\github\\bug-hunting-diaries\\tiklaa_blazor_game\\tiklaa_blazor_game\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7EA07A63-1EF9-405D-93FB-5C3ABDD56D78}|tiklaa_blazor_game\\tiklaa_blazor_game.csproj|solutionrelative:tiklaa_blazor_game\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{7EA07A63-1EF9-405D-93FB-5C3ABDD56D78}|tiklaa_blazor_game\\tiklaa_blazor_game.csproj|d:\\masaustu_yedek\\github\\bug-hunting-diaries\\tiklaa_blazor_game\\tiklaa_blazor_game\\wwwroot\\css\\leaderboard.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{7EA07A63-1EF9-405D-93FB-5C3ABDD56D78}|tiklaa_blazor_game\\tiklaa_blazor_game.csproj|solutionrelative:tiklaa_blazor_game\\wwwroot\\css\\leaderboard.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7EA07A63-1EF9-405D-93FB-5C3ABDD56D78}|tiklaa_blazor_game\\tiklaa_blazor_game.csproj|d:\\masaustu_yedek\\github\\bug-hunting-diaries\\tiklaa_blazor_game\\tiklaa_blazor_game\\components\\pages\\leaderboard.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7EA07A63-1EF9-405D-93FB-5C3ABDD56D78}|tiklaa_blazor_game\\tiklaa_blazor_game.csproj|solutionrelative:tiklaa_blazor_game\\components\\pages\\leaderboard.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\masaustu_yedek\\GITHUB\\bug-hunting-diaries\\tiklaa_blazor_game\\tiklaa_blazor_game\\Migrations\\20250618170904_initial3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:tiklaa_blazor_game\\Migrations\\20250618170904_initial3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\masaustu_yedek\\GITHUB\\bug-hunting-diaries\\tiklaa_blazor_game\\tiklaa_blazor_game\\Migrations\\20250618170554_initial2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:tiklaa_blazor_game\\Migrations\\20250618170554_initial2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7EA07A63-1EF9-405D-93FB-5C3ABDD56D78}|tiklaa_blazor_game\\tiklaa_blazor_game.csproj|d:\\masaustu_yedek\\github\\bug-hunting-diaries\\tiklaa_blazor_game\\tiklaa_blazor_game\\gamee\\db_user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7EA07A63-1EF9-405D-93FB-5C3ABDD56D78}|tiklaa_blazor_game\\tiklaa_blazor_game.csproj|solutionrelative:tiklaa_blazor_game\\gamee\\db_user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\masaustu_yedek\\GITHUB\\bug-hunting-diaries\\tiklaa_blazor_game\\tiklaa_blazor_game\\Migrations\\20250618170021_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:tiklaa_blazor_game\\Migrations\\20250618170021_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7EA07A63-1EF9-405D-93FB-5C3ABDD56D78}|tiklaa_blazor_game\\tiklaa_blazor_game.csproj|d:\\masaustu_yedek\\github\\bug-hunting-diaries\\tiklaa_blazor_game\\tiklaa_blazor_game\\wwwroot\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{7EA07A63-1EF9-405D-93FB-5C3ABDD56D78}|tiklaa_blazor_game\\tiklaa_blazor_game.csproj|solutionrelative:tiklaa_blazor_game\\wwwroot\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,97 +30,71 @@
       "DocumentGroups": [
         {
           "DockedWidth": 189,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "20250618170904_initial3.cs",
-              "DocumentMoniker": "D:\\masaustu_yedek\\GITHUB\\bug-hunting-diaries\\tiklaa_blazor_game\\tiklaa_blazor_game\\Migrations\\20250618170904_initial3.cs",
-              "RelativeDocumentMoniker": "tiklaa_blazor_game\\Migrations\\20250618170904_initial3.cs",
-              "ToolTip": "D:\\masaustu_yedek\\GITHUB\\bug-hunting-diaries\\tiklaa_blazor_game\\tiklaa_blazor_game\\Migrations\\20250618170904_initial3.cs",
-              "RelativeToolTip": "tiklaa_blazor_game\\Migrations\\20250618170904_initial3.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T17:09:04.448Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "20250618170554_initial2.cs",
-              "DocumentMoniker": "D:\\masaustu_yedek\\GITHUB\\bug-hunting-diaries\\tiklaa_blazor_game\\tiklaa_blazor_game\\Migrations\\20250618170554_initial2.cs",
-              "RelativeDocumentMoniker": "tiklaa_blazor_game\\Migrations\\20250618170554_initial2.cs",
-              "ToolTip": "D:\\masaustu_yedek\\GITHUB\\bug-hunting-diaries\\tiklaa_blazor_game\\tiklaa_blazor_game\\Migrations\\20250618170554_initial2.cs",
-              "RelativeToolTip": "tiklaa_blazor_game\\Migrations\\20250618170554_initial2.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T17:05:54.464Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "20250618170021_InitialCreate.cs",
-              "DocumentMoniker": "D:\\masaustu_yedek\\GITHUB\\bug-hunting-diaries\\tiklaa_blazor_game\\tiklaa_blazor_game\\Migrations\\20250618170021_InitialCreate.cs",
-              "RelativeDocumentMoniker": "tiklaa_blazor_game\\Migrations\\20250618170021_InitialCreate.cs",
-              "ToolTip": "D:\\masaustu_yedek\\GITHUB\\bug-hunting-diaries\\tiklaa_blazor_game\\tiklaa_blazor_game\\Migrations\\20250618170021_InitialCreate.cs",
-              "RelativeToolTip": "tiklaa_blazor_game\\Migrations\\20250618170021_InitialCreate.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T17:00:21.174Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Db_user.cs",
-              "DocumentMoniker": "D:\\masaustu_yedek\\GITHUB\\bug-hunting-diaries\\tiklaa_blazor_game\\tiklaa_blazor_game\\gamee\\Db_user.cs",
-              "RelativeDocumentMoniker": "tiklaa_blazor_game\\gamee\\Db_user.cs",
-              "ToolTip": "D:\\masaustu_yedek\\GITHUB\\bug-hunting-diaries\\tiklaa_blazor_game\\tiklaa_blazor_game\\gamee\\Db_user.cs",
-              "RelativeToolTip": "tiklaa_blazor_game\\gamee\\Db_user.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T16:54:31.266Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Game.razor",
-              "DocumentMoniker": "D:\\masaustu_yedek\\GITHUB\\bug-hunting-diaries\\tiklaa_blazor_game\\tiklaa_blazor_game\\Components\\Pages\\Game.razor",
-              "RelativeDocumentMoniker": "tiklaa_blazor_game\\Components\\Pages\\Game.razor",
-              "ToolTip": "D:\\masaustu_yedek\\GITHUB\\bug-hunting-diaries\\tiklaa_blazor_game\\tiklaa_blazor_game\\Components\\Pages\\Game.razor",
-              "RelativeToolTip": "tiklaa_blazor_game\\Components\\Pages\\Game.razor",
-              "ViewState": "AgIAAMIAAAAAAAAAAAAiwM4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-18T16:50:09.127Z",
+              "Title": "20250618215816_son.cs",
+              "DocumentMoniker": "D:\\masaustu_yedek\\GITHUB\\bug-hunting-diaries\\tiklaa_blazor_game\\tiklaa_blazor_game\\Migrations\\20250618215816_son.cs",
+              "RelativeDocumentMoniker": "tiklaa_blazor_game\\Migrations\\20250618215816_son.cs",
+              "ToolTip": "D:\\masaustu_yedek\\GITHUB\\bug-hunting-diaries\\tiklaa_blazor_game\\tiklaa_blazor_game\\Migrations\\20250618215816_son.cs",
+              "RelativeToolTip": "tiklaa_blazor_game\\Migrations\\20250618215816_son.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T21:58:16.787Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Home.razor",
-              "DocumentMoniker": "D:\\masaustu_yedek\\GITHUB\\bug-hunting-diaries\\tiklaa_blazor_game\\tiklaa_blazor_game\\Components\\Pages\\Home.razor",
-              "RelativeDocumentMoniker": "tiklaa_blazor_game\\Components\\Pages\\Home.razor",
-              "ToolTip": "D:\\masaustu_yedek\\GITHUB\\bug-hunting-diaries\\tiklaa_blazor_game\\tiklaa_blazor_game\\Components\\Pages\\Home.razor",
-              "RelativeToolTip": "tiklaa_blazor_game\\Components\\Pages\\Home.razor",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "Game.razor",
+              "DocumentMoniker": "D:\\masaustu_yedek\\GITHUB\\bug-hunting-diaries\\tiklaa_blazor_game\\tiklaa_blazor_game\\Components\\Pages\\Game.razor",
+              "RelativeDocumentMoniker": "tiklaa_blazor_game\\Components\\Pages\\Game.razor",
+              "ToolTip": "D:\\masaustu_yedek\\GITHUB\\bug-hunting-diaries\\tiklaa_blazor_game\\tiklaa_blazor_game\\Components\\Pages\\Game.razor",
+              "RelativeToolTip": "tiklaa_blazor_game\\Components\\Pages\\Game.razor",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAAAEsAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-18T16:51:52.851Z",
+              "WhenOpened": "2025-06-18T21:49:50.212Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "leaderboard.css",
+              "DocumentMoniker": "D:\\masaustu_yedek\\GITHUB\\bug-hunting-diaries\\tiklaa_blazor_game\\tiklaa_blazor_game\\wwwroot\\css\\leaderboard.css",
+              "RelativeDocumentMoniker": "tiklaa_blazor_game\\wwwroot\\css\\leaderboard.css",
+              "ToolTip": "D:\\masaustu_yedek\\GITHUB\\bug-hunting-diaries\\tiklaa_blazor_game\\tiklaa_blazor_game\\wwwroot\\css\\leaderboard.css",
+              "RelativeToolTip": "tiklaa_blazor_game\\wwwroot\\css\\leaderboard.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-06-18T21:47:04.74Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "app.css",
+              "DocumentMoniker": "D:\\masaustu_yedek\\GITHUB\\bug-hunting-diaries\\tiklaa_blazor_game\\tiklaa_blazor_game\\wwwroot\\app.css",
+              "RelativeDocumentMoniker": "tiklaa_blazor_game\\wwwroot\\app.css",
+              "ToolTip": "D:\\masaustu_yedek\\GITHUB\\bug-hunting-diaries\\tiklaa_blazor_game\\tiklaa_blazor_game\\wwwroot\\app.css",
+              "RelativeToolTip": "tiklaa_blazor_game\\wwwroot\\app.css",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAADMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-06-18T21:44:41.637Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Leaderboard.razor",
               "DocumentMoniker": "D:\\masaustu_yedek\\GITHUB\\bug-hunting-diaries\\tiklaa_blazor_game\\tiklaa_blazor_game\\Components\\Pages\\Leaderboard.razor",
               "RelativeDocumentMoniker": "tiklaa_blazor_game\\Components\\Pages\\Leaderboard.razor",
               "ToolTip": "D:\\masaustu_yedek\\GITHUB\\bug-hunting-diaries\\tiklaa_blazor_game\\tiklaa_blazor_game\\Components\\Pages\\Leaderboard.razor",
               "RelativeToolTip": "tiklaa_blazor_game\\Components\\Pages\\Leaderboard.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-18T16:51:14.066Z",
+              "WhenOpened": "2025-06-18T21:44:40.208Z",
               "EditorCaption": ""
             }
           ]

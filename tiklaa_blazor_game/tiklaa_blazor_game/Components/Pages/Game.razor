@@ -1,134 +1,84 @@
 ﻿@page "/game"
+@using System.Timers
 @using TiklaaGame.Data
 @inject TiklaaDbContext _dbContext
 @using tiklaa_blazor_game.gamee
 @rendermode InteractiveServer
-@* 
+<div style="display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 80vh; text-align: center;">
+    <h3>Oyuna Başla</h3>
 
-<h3>Oyuna Başla</h3>
-
-@if (!oyunBasladi)
-{
-    <input @bind="kullaniciAdi" placeholder="Kullanıcı Adınızı Girin" />
-    <button @onclick="Basla">Başla</button>
-
-    @if (!string.IsNullOrEmpty(mesaj))
+    @if (!oyunBasladi && !oyunBitti)
     {
-        <p style="color:red">@mesaj</p>
+        <div>
+            <input style="margin: 10px 0; padding: 8px; width: 200px;" @bind="UserName" placeholder="Adınızı Girin" />
+            <button style="margin: 10px; padding: 8px 16px; cursor: pointer;" @onclick="Basla">Başla</button>
+
+            @if (!string.IsNullOrEmpty(mesaj))
+            {
+                <p style="color:red">@mesaj</p>
+            }
+        </div>
     }
-}
-else
-{
-    <p>Kullanıcı: @kullaniciAdi</p>
-    <p>Skor: @skor</p>
-    <p>Tarih: @oyunTarih.ToString("dd.MM.yyyy HH:mm:ss")</p>
+    else if (oyunBitti)
+    {
+        <div style="background-color: #f8f9fa; padding: 20px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+            <p>Oyun bitti! Skorunuz: @skor</p>
+            <p>Toplam Tıklama: @clickCount</p>
+            <p>Oynama Tarihi: @oyunTarih.ToString("dd.MM.yyyy HH:mm:ss")</p>
+            <p>@sonucMesaji</p>
+            <img src="@hayvanResim" style="width:200px;" />
 
-    <p>Tıklama Sayısı: @clickCount</p>
+            <button style="margin: 10px; padding: 8px 16px; cursor: pointer;" @onclick="TekrarOyna">Tekrar Oyna</button>
+        </div>
+    }
+    else
+    {
+        <div style="background-color: #f8f9fa; padding: 20px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+            <p>Kullanıcı: @UserName</p>
+            <p>Skor: @skor</p>
+            <p>Tıklama Sayısı: @clickCount</p>
+            <p>Kalan Süre: @kalanSure saniye</p>
 
-    <img src="@hayvanResim" alt="Hayvan" style="width:200px" />
+            <img src="@hayvanResim" style="width:200px;" />
 
-    <button @onclick="Tikla">Tıkla!</button>
-}
+            <button style="margin: 10px; padding: 8px 16px; cursor: pointer;" @onclick="Tikla" disabled="@oyunBitti">Tıkla!</button>
+        </div>
+    }
+</div>
 
 @code {
-    private string kullaniciAdi;
-    private bool oyunBasladi = false;
-    private string mesaj = "";
-
-    private int skor = 0;
-    private DateTime oyunTarih;
-    private int clickCount = 0;
-
-    private string hayvanResim = "img/normalanimal.png";
-
-    private void Basla()
-    {
-        if (string.IsNullOrWhiteSpace(kullaniciAdi))
-        {
-            mesaj = "Lütfen kullanıcı adı girin!";
-            return;
-        }
-
-        mesaj = "";
-        oyunBasladi = true;
-        skor = 0;
-        clickCount = 0;
-        oyunTarih = DateTime.Now;
-        hayvanResim = "img/normalanimal.png"; // Başlangıç hayvanı
-    }
-
-    private void Tikla()
-    {
-        clickCount++;
-        skor += 10; // örnek skor artırma
-
-        // Tıklama sayısına göre hayvan değişimi
-        if (clickCount < 10)
-        {
-            hayvanResim = "img/normalanimal.png";
-        }
-        else if (clickCount < 20)
-        {
-            hayvanResim = "img/happyanimal.png";
-        }
-        else
-        {
-            hayvanResim = "img/superanimal.png";
-        }
-    }
-} *@
-
-
-<h3>Oyuna Başla</h3>
-
-@if (!oyunBasladi)
-{
-    <input @bind="kullaniciAdi" placeholder="Kullanıcı Adınızı Girin" />
-    <button @onclick="Basla">Başla</button>
-
-    @if (!string.IsNullOrEmpty(mesaj))
-    {
-        <p style="color:red">@mesaj</p>
-    }
-}
-else if (oyunBitti)
-{
-    <p>Oyun bitti! Skorunuz: @skor</p>
-    <p>Toplam Tıklama: @clickCount</p>
-    <button @onclick="TekrarOyna">Tekrar Oyna</button>
-}
-else
-{
-    <p>Kullanıcı: @kullaniciAdi</p>
-    <p>Skor: @skor</p>
-    <p>Tarih: @oyunTarih.ToString("dd.MM.yyyy HH:mm:ss")</p>
-    <p>Kalan Süre: @kalanSure saniye</p>
-
-    <p>Tıklama Sayısı: @clickCount</p>
-
-    <img src="@hayvanResim" alt="Hayvan" style="width:200px" />
-
-    <button @onclick="Tikla">Tıkla!</button>
-}
-
-@code {
-    private string kullaniciAdi;
+    private string UserName = string.Empty;
     private bool oyunBasladi = false;
     private bool oyunBitti = false;
     private string mesaj = "";
+    private string sonucMesaji = "";
+ 
 
     private int skor = 0;
     private DateTime oyunTarih;
     private int clickCount = 0;
 
-    private string hayvanResim = "img/normalanimal.png";
+    private string hayvanResim = "gif/turtle-turtled.gif";
 
     private int kalanSure = 10;
-    private System.Timers.Timer oyunTimer;
+    private System.Timers.Timer? oyunTimer;
 
-    private void Basla()
+     
+    private async Task StartTimer()
     {
-        if (string.IsNullOrWhiteSpace(kullaniciAdi))
+        while (kalanSure > 0)
+        {
+            await Task.Delay(1000); // 1 saniye bekle
+            kalanSure--;
+            await InvokeAsync(StateHasChanged);
+        }
+
+        await OyunBitir(); // Timer yerine direkt metod çağrılır
+    }
+
+    private async Task Basla()
+    {
+        if (string.IsNullOrWhiteSpace(UserName))
         {
             mesaj = "Lütfen kullanıcı adı girin!";
             return;
@@ -141,66 +91,100 @@ else
         clickCount = 0;
         kalanSure = 10;
         oyunTarih = DateTime.Now;
-        hayvanResim = "img/normalanimal.png";
+        hayvanResim = "gif/turtle-turtled.gif";
 
-        // Timer ayarla
-        oyunTimer = new System.Timers.Timer(1000);
-        oyunTimer.Elapsed += TimerElapsed;
-        oyunTimer.AutoReset = true;
-        oyunTimer.Enabled = true;
+        await StartTimer(); // async çağrı varsa
     }
 
-    private void TimerElapsed(object sender, System.Timers.ElapsedEventArgs e)
+    private async Task TimerElapsed()
     {
         if (kalanSure > 0)
         {
             kalanSure--;
-            InvokeAsync(StateHasChanged); // UI güncelle
+            await InvokeAsync(StateHasChanged);
         }
         else
         {
-            oyunTimer.Stop();
-            oyunBitti = true;
-            oyunBasladi = false;
-            InvokeAsync(StateHasChanged);
+            oyunTimer?.Stop();
+            await OyunBitir();
         }
     }
 
     private void Tikla()
     {
-        if (oyunBitti)
+        if (!oyunBasladi || oyunBitti)
             return;
 
         clickCount++;
         skor += 10;
-
-        if (clickCount < 10)
-        {
-            hayvanResim = "img/normalanimal.png";
-        }
-        else if (clickCount < 20)
-        {
-            hayvanResim = "img/happyanimal.png";
-        }
-        else
-        {
-            hayvanResim = "img/superanimal.png";
-        }
+        InvokeAsync(StateHasChanged);
     }
 
-    private void TekrarOyna()
+    private async Task OyunBitir()
+    {
+        if (oyunBitti) return;
+
+        oyunBitti = true;
+        oyunBasladi = false;
+
+        // Kullanıcıyı kontrol et ve gerekiyorsa ekle
+        var mevcutKullanici = _dbContext.Db_Users.FirstOrDefault(u => u.UserName == UserName);
+        if (mevcutKullanici == null)
+        {
+            mevcutKullanici = new Db_user { UserName = UserName };
+            _dbContext.Db_Users.Add(mevcutKullanici);
+            await _dbContext.SaveChangesAsync();
+        }
+
+        // Skora göre hayvanı belirle
+        if (clickCount < 20)
+        {
+            hayvanResim = "gif/turtle2.gif";
+            sonucMesaji = "biraz yavaşız galiba :) ";
+        }
+
+        else if (clickCount < 30)
+        {
+            hayvanResim = "gif/rabbit1.gif";
+            sonucMesaji = "olduğun yerde fazla yükseğe çıkmaya çalışıyorsun :) ";
+        }
+
+        else if (clickCount < 40)
+        {
+            hayvanResim = "gif/dog.gif";
+            sonucMesaji = "ha gayret :) ";
+        }
+
+        else
+        {
+            hayvanResim = "gif/cheetah.gif";
+            sonucMesaji = "aferin hep hızlı ol :) ";
+        }
+
+        // Oyun kaydını veritabanına ekle
+        var oyunKaydi = new Db_game
+            {
+                UserID = mevcutKullanici.ID,
+                Skor = skor,
+                ClickCount = clickCount,
+                Date = DateTime.Now,
+                Animal = hayvanResim
+            };
+
+        _dbContext.Db_Games.Add(oyunKaydi);
+        await _dbContext.SaveChangesAsync();
+
+        await InvokeAsync(StateHasChanged);
+    }
+
+    private async Task TekrarOyna()
     {
         oyunBitti = false;
-        Basla();
+        await Basla();
     }
 
     public void Dispose()
     {
-        if (oyunTimer != null)
-        {
-            oyunTimer.Dispose();
-        }
+        oyunTimer?.Dispose();
     }
 }
-
-        alıyor ama oyun başlamadan ilk skor gösteriyor en sonunda skoru gösermeden sayfa sıfırlanıyor

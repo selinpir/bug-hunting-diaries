@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("tiklaa_blazor_game")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8dbaa8b505d5b50c00522ec27aa5c10571f8c58d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1c4ea399464b5f3defdc6fb72dc1e670dee2bd89")]
 [assembly: System.Reflection.AssemblyProductAttribute("tiklaa_blazor_game")]
 [assembly: System.Reflection.AssemblyTitleAttribute("tiklaa_blazor_game")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

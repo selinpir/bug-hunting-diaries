@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using TiklaaGame.Data;
 
@@ -11,9 +12,11 @@ using TiklaaGame.Data;
 namespace tiklaa_blazor_game.Migrations
 {
     [DbContext(typeof(TiklaaDbContext))]
-    partial class TiklaaDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250618204357_er")]
+    partial class er
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -51,6 +54,26 @@ namespace tiklaa_blazor_game.Migrations
                     b.HasIndex("UserID");
 
                     b.ToTable("Db_Games");
+                });
+
+            modelBuilder.Entity("tiklaa_blazor_game.gamee.Db_leader", b =>
+                {
+                    b.Property<int>("leaderID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("leaderID"));
+
+                    b.Property<int>("Clickcount")
+                        .HasColumnType("int");
+
+                    b.Property<string>("UserName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("leaderID");
+
+                    b.ToTable("Db_leaders");
                 });
 
             modelBuilder.Entity("tiklaa_blazor_game.gamee.Db_user", b =>

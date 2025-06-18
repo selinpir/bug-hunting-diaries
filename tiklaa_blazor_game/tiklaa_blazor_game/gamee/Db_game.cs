@@ -6,7 +6,6 @@ namespace tiklaa_blazor_game.gamee
     {
         [Key]
         public int GameID { get; set; }
-        public string TiklamaSonuc { get; set; }
         public int Skor { get; set; }
         public int ClickCount { get; set; }
         public string Animal { get; set; }

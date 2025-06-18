@@ -1,6 +1,74 @@
 ﻿@page "/leaderboard"
+@using Microsoft.EntityFrameworkCore
+@using tiklaa_blazor_game.gamee
+@using TiklaaGame.Data
+@inject TiklaaDbContext DbContext
 @rendermode InteractiveServer
+<link href="css/leaderboard.css" rel="stylesheet" />
+
+<div class="leaderboard-container">
+    <h2>Lider Tablosu</h2>
+
+    @if (topLeaders == null)
+    {
+        <p>Yükleniyor...</p>
+    }
+    else if (!topLeaders.Any())
+    {
+        <p>Henüz lider kaydı bulunmamaktadır.</p>
+    }
+    else
+    {
+        <div class="leaderboard-card">
+            <div class="leaderboard-header">
+                <div class="leaderboard-item">
+                    <div class="rank">Sıra</div>
+                    <div class="username">Kullanıcı</div>
+                    <div class="score">En Yüksek Tıklama</div>
+                </div>
+            </div>
+
+            @for (int i = 0; i < topLeaders.Count; i++)
+            {
+                var leader = topLeaders[i];
+                <div class="leaderboard-item">
+                    <div class="rank">@(i + 1)</div>
+                    <div class="username">@leader.UserName</div>
+                    <div class="score">@leader.MaxClickCount</div>
+                </div>
+            }
+        </div>
+    }
+</div> 
 
 @code {
+    private List<LeaderViewModel> topLeaders;
 
+    protected override async Task OnInitializedAsync()
+    {
+        await LoadTopLeaders();
+    }
+
+    private async Task LoadTopLeaders()
+    {
+        topLeaders = await DbContext.Db_Games
+            .Include(g => g.user)  // Kullanıcı bilgisini çekmek için navigation property
+            .GroupBy(g => g.UserID)
+            .Select(group => new LeaderViewModel
+                {
+                    UserID = group.Key,
+                    UserName = group.First().user.UserName,
+                    MaxClickCount = group.Max(g => g.ClickCount)
+                })
+            .OrderByDescending(l => l.MaxClickCount)
+            .Take(5)
+            .ToListAsync();
+    }
+
+    public class LeaderViewModel
+    {
+        public int UserID { get; set; }
+        public string UserName { get; set; } = string.Empty;
+        public int MaxClickCount { get; set; }
+    }
 }

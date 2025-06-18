@@ -12,8 +12,7 @@ namespace TiklaaGame.Data
 
         public DbSet<Db_game> Db_Games { get; set; }
         public DbSet<Db_user> Db_Users { get; set; }
-
-        public DbSet<Db_leader> Db_leaders { get; set; }
+        //public DbSet<Db_leader> Db_leaders { get; set; } //gerek kalmadi ya da hic yoktu
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
