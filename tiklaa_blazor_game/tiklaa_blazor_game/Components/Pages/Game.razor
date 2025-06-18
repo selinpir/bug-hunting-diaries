@@ -1,0 +1,206 @@
+﻿@page "/game"
+@using TiklaaGame.Data
+@inject TiklaaDbContext _dbContext
+@using tiklaa_blazor_game.gamee
+@rendermode InteractiveServer
+@* 
+
+<h3>Oyuna Başla</h3>
+
+@if (!oyunBasladi)
+{
+    <input @bind="kullaniciAdi" placeholder="Kullanıcı Adınızı Girin" />
+    <button @onclick="Basla">Başla</button>
+
+    @if (!string.IsNullOrEmpty(mesaj))
+    {
+        <p style="color:red">@mesaj</p>
+    }
+}
+else
+{
+    <p>Kullanıcı: @kullaniciAdi</p>
+    <p>Skor: @skor</p>
+    <p>Tarih: @oyunTarih.ToString("dd.MM.yyyy HH:mm:ss")</p>
+
+    <p>Tıklama Sayısı: @clickCount</p>
+
+    <img src="@hayvanResim" alt="Hayvan" style="width:200px" />
+
+    <button @onclick="Tikla">Tıkla!</button>
+}
+
+@code {
+    private string kullaniciAdi;
+    private bool oyunBasladi = false;
+    private string mesaj = "";
+
+    private int skor = 0;
+    private DateTime oyunTarih;
+    private int clickCount = 0;
+
+    private string hayvanResim = "img/normalanimal.png";
+
+    private void Basla()
+    {
+        if (string.IsNullOrWhiteSpace(kullaniciAdi))
+        {
+            mesaj = "Lütfen kullanıcı adı girin!";
+            return;
+        }
+
+        mesaj = "";
+        oyunBasladi = true;
+        skor = 0;
+        clickCount = 0;
+        oyunTarih = DateTime.Now;
+        hayvanResim = "img/normalanimal.png"; // Başlangıç hayvanı
+    }
+
+    private void Tikla()
+    {
+        clickCount++;
+        skor += 10; // örnek skor artırma
+
+        // Tıklama sayısına göre hayvan değişimi
+        if (clickCount < 10)
+        {
+            hayvanResim = "img/normalanimal.png";
+        }
+        else if (clickCount < 20)
+        {
+            hayvanResim = "img/happyanimal.png";
+        }
+        else
+        {
+            hayvanResim = "img/superanimal.png";
+        }
+    }
+} *@
+
+
+<h3>Oyuna Başla</h3>
+
+@if (!oyunBasladi)
+{
+    <input @bind="kullaniciAdi" placeholder="Kullanıcı Adınızı Girin" />
+    <button @onclick="Basla">Başla</button>
+
+    @if (!string.IsNullOrEmpty(mesaj))
+    {
+        <p style="color:red">@mesaj</p>
+    }
+}
+else if (oyunBitti)
+{
+    <p>Oyun bitti! Skorunuz: @skor</p>
+    <p>Toplam Tıklama: @clickCount</p>
+    <button @onclick="TekrarOyna">Tekrar Oyna</button>
+}
+else
+{
+    <p>Kullanıcı: @kullaniciAdi</p>
+    <p>Skor: @skor</p>
+    <p>Tarih: @oyunTarih.ToString("dd.MM.yyyy HH:mm:ss")</p>
+    <p>Kalan Süre: @kalanSure saniye</p>
+
+    <p>Tıklama Sayısı: @clickCount</p>
+
+    <img src="@hayvanResim" alt="Hayvan" style="width:200px" />
+
+    <button @onclick="Tikla">Tıkla!</button>
+}
+
+@code {
+    private string kullaniciAdi;
+    private bool oyunBasladi = false;
+    private bool oyunBitti = false;
+    private string mesaj = "";
+
+    private int skor = 0;
+    private DateTime oyunTarih;
+    private int clickCount = 0;
+
+    private string hayvanResim = "img/normalanimal.png";
+
+    private int kalanSure = 10;
+    private System.Timers.Timer oyunTimer;
+
+    private void Basla()
+    {
+        if (string.IsNullOrWhiteSpace(kullaniciAdi))
+        {
+            mesaj = "Lütfen kullanıcı adı girin!";
+            return;
+        }
+
+        mesaj = "";
+        oyunBasladi = true;
+        oyunBitti = false;
+        skor = 0;
+        clickCount = 0;
+        kalanSure = 10;
+        oyunTarih = DateTime.Now;
+        hayvanResim = "img/normalanimal.png";
+
+        // Timer ayarla
+        oyunTimer = new System.Timers.Timer(1000);
+        oyunTimer.Elapsed += TimerElapsed;
+        oyunTimer.AutoReset = true;
+        oyunTimer.Enabled = true;
+    }
+
+    private void TimerElapsed(object sender, System.Timers.ElapsedEventArgs e)
+    {
+        if (kalanSure > 0)
+        {
+            kalanSure--;
+            InvokeAsync(StateHasChanged); // UI güncelle
+        }
+        else
+        {
+            oyunTimer.Stop();
+            oyunBitti = true;
+            oyunBasladi = false;
+            InvokeAsync(StateHasChanged);
+        }
+    }
+
+    private void Tikla()
+    {
+        if (oyunBitti)
+            return;
+
+        clickCount++;
+        skor += 10;
+
+        if (clickCount < 10)
+        {
+            hayvanResim = "img/normalanimal.png";
+        }
+        else if (clickCount < 20)
+        {
+            hayvanResim = "img/happyanimal.png";
+        }
+        else
+        {
+            hayvanResim = "img/superanimal.png";
+        }
+    }
+
+    private void TekrarOyna()
+    {
+        oyunBitti = false;
+        Basla();
+    }
+
+    public void Dispose()
+    {
+        if (oyunTimer != null)
+        {
+            oyunTimer.Dispose();
+        }
+    }
+}
+
+        alıyor ama oyun başlamadan ilk skor gösteriyor en sonunda skoru gösermeden sayfa sıfırlanıyor

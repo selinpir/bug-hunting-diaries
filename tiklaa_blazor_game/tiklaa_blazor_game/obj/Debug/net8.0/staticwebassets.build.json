@@ -1,0 +1,1464 @@
+{
+  "Version": 1,
+  "Hash": "bhMslSKBYyOutGR5cCQnjKwSglhZ3Yx5iqTLvWzfY+I=",
+  "Source": "tiklaa_blazor_game",
+  "BasePath": "_content/tiklaa_blazor_game",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "tiklaa_blazor_game\\wwwroot",
+      "Source": "tiklaa_blazor_game",
+      "ContentRoot": "D:\\masaustu_yedek\\GITHUB\\bug-hunting-diaries\\tiklaa_blazor_game\\tiklaa_blazor_game\\wwwroot\\",
+      "BasePath": "_content/tiklaa_blazor_game",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\masaustu_yedek\\GITHUB\\bug-hunting-diaries\\tiklaa_blazor_game\\tiklaa_blazor_game\\obj\\Debug\\net8.0\\scopedcss\\bundle\\tiklaa_blazor_game.styles.css",
+      "SourceId": "tiklaa_blazor_game",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\masaustu_yedek\\GITHUB\\bug-hunting-diaries\\tiklaa_blazor_game\\tiklaa_blazor_game\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "BasePath": "_content/tiklaa_blazor_game",
+      "RelativePath": "tiklaa_blazor_game#[.{fingerprint}]?.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "Fingerprint": "ryovzr8o5j",
+      "Integrity": "3aDJk0mqigLvkMAaydfu5OulaTMC+J2HlFfw6f6THpQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "D:\\masaustu_yedek\\GITHUB\\bug-hunting-diaries\\tiklaa_blazor_game\\tiklaa_blazor_game\\obj\\Debug\\net8.0\\scopedcss\\bundle\\tiklaa_blazor_game.styles.css"
+    },
+    {
+      "Identity": "D:\\masaustu_yedek\\GITHUB\\bug-hunting-diaries\\tiklaa_blazor_game\\tiklaa_blazor_game\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\tiklaa_blazor_game.bundle.scp.css",
+      "SourceId": "tiklaa_blazor_game",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\masaustu_yedek\\GITHUB\\bug-hunting-diaries\\tiklaa_blazor_game\\tiklaa_blazor_game\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "BasePath": "_content/tiklaa_blazor_game",
+      "RelativePath": "tiklaa_blazor_game#[.{fingerprint}]!.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "Fingerprint": "ryovzr8o5j",
+      "Integrity": "3aDJk0mqigLvkMAaydfu5OulaTMC+J2HlFfw6f6THpQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "D:\\masaustu_yedek\\GITHUB\\bug-hunting-diaries\\tiklaa_blazor_game\\tiklaa_blazor_game\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\tiklaa_blazor_game.bundle.scp.css"
+    },
+    {
+      "Identity": "D:\\masaustu_yedek\\GITHUB\\bug-hunting-diaries\\tiklaa_blazor_game\\tiklaa_blazor_game\\wwwroot\\app.css",
+      "SourceId": "tiklaa_blazor_game",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\masaustu_yedek\\GITHUB\\bug-hunting-diaries\\tiklaa_blazor_game\\tiklaa_blazor_game\\wwwroot\\",
+      "BasePath": "_content/tiklaa_blazor_game",
+      "RelativePath": "app#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "da95v2qkru",
+      "Integrity": "u9qEka1auR7E3rd3/8/j8hkQdSOYj9bRJ4nYiFDR1sE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\app.css"
+    },
+    {
+      "Identity": "D:\\masaustu_yedek\\GITHUB\\bug-hunting-diaries\\tiklaa_blazor_game\\tiklaa_blazor_game\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "SourceId": "tiklaa_blazor_game",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\masaustu_yedek\\GITHUB\\bug-hunting-diaries\\tiklaa_blazor_game\\tiklaa_blazor_game\\wwwroot\\",
+      "BasePath": "_content/tiklaa_blazor_game",
+      "RelativePath": "bootstrap/bootstrap.min#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "bpk8xqwxhs",
+      "Integrity": "z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Identity": "D:\\masaustu_yedek\\GITHUB\\bug-hunting-diaries\\tiklaa_blazor_game\\tiklaa_blazor_game\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "SourceId": "tiklaa_blazor_game",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\masaustu_yedek\\GITHUB\\bug-hunting-diaries\\tiklaa_blazor_game\\tiklaa_blazor_game\\wwwroot\\",
+      "BasePath": "_content/tiklaa_blazor_game",
+      "RelativePath": "bootstrap/bootstrap.min.css#[.{fingerprint}]?.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8inm30yfxf",
+      "Integrity": "gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Identity": "D:\\masaustu_yedek\\GITHUB\\bug-hunting-diaries\\tiklaa_blazor_game\\tiklaa_blazor_game\\wwwroot\\favicon.png",
+      "SourceId": "tiklaa_blazor_game",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\masaustu_yedek\\GITHUB\\bug-hunting-diaries\\tiklaa_blazor_game\\tiklaa_blazor_game\\wwwroot\\",
+      "BasePath": "_content/tiklaa_blazor_game",
+      "RelativePath": "favicon#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ifv42okdf2",
+      "Integrity": "4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\favicon.png"
+    },
+    {
+      "Identity": "D:\\masaustu_yedek\\GITHUB\\bug-hunting-diaries\\tiklaa_blazor_game\\tiklaa_blazor_game\\wwwroot\\gif\\cheetah.gif",
+      "SourceId": "tiklaa_blazor_game",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\masaustu_yedek\\GITHUB\\bug-hunting-diaries\\tiklaa_blazor_game\\tiklaa_blazor_game\\wwwroot\\",
+      "BasePath": "_content/tiklaa_blazor_game",
+      "RelativePath": "gif/cheetah#[.{fingerprint}]?.gif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "yo34rejifz",
+      "Integrity": "so71tOVXPMwUpMXQ+MgBcUqwNsVBKJ5MSFP5+GKVlNw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\gif\\cheetah.gif"
+    },
+    {
+      "Identity": "D:\\masaustu_yedek\\GITHUB\\bug-hunting-diaries\\tiklaa_blazor_game\\tiklaa_blazor_game\\wwwroot\\gif\\dog 2.gif",
+      "SourceId": "tiklaa_blazor_game",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\masaustu_yedek\\GITHUB\\bug-hunting-diaries\\tiklaa_blazor_game\\tiklaa_blazor_game\\wwwroot\\",
+      "BasePath": "_content/tiklaa_blazor_game",
+      "RelativePath": "gif/dog 2#[.{fingerprint}]?.gif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "o9a062ue51",
+      "Integrity": "BF5cevLtKm66ZEnokw1NgtCuIQD4ZpF+wfZ7KSUby2Q=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\gif\\dog 2.gif"
+    },
+    {
+      "Identity": "D:\\masaustu_yedek\\GITHUB\\bug-hunting-diaries\\tiklaa_blazor_game\\tiklaa_blazor_game\\wwwroot\\gif\\dog.gif",
+      "SourceId": "tiklaa_blazor_game",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\masaustu_yedek\\GITHUB\\bug-hunting-diaries\\tiklaa_blazor_game\\tiklaa_blazor_game\\wwwroot\\",
+      "BasePath": "_content/tiklaa_blazor_game",
+      "RelativePath": "gif/dog#[.{fingerprint}]?.gif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "fuwoi5h30b",
+      "Integrity": "ue3kuAp6QYnbrbQzc7w9o+MnpfkzlcR0WLKXJf7z7is=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\gif\\dog.gif"
+    },
+    {
+      "Identity": "D:\\masaustu_yedek\\GITHUB\\bug-hunting-diaries\\tiklaa_blazor_game\\tiklaa_blazor_game\\wwwroot\\gif\\jumpingHome.gif",
+      "SourceId": "tiklaa_blazor_game",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\masaustu_yedek\\GITHUB\\bug-hunting-diaries\\tiklaa_blazor_game\\tiklaa_blazor_game\\wwwroot\\",
+      "BasePath": "_content/tiklaa_blazor_game",
+      "RelativePath": "gif/jumpingHome#[.{fingerprint}]?.gif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "2mpztuxgit",
+      "Integrity": "lg4FUZ4b53WqAF1Xp160MytAFJCc0yZdLA+LabPtxEQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\gif\\jumpingHome.gif"
+    },
+    {
+      "Identity": "D:\\masaustu_yedek\\GITHUB\\bug-hunting-diaries\\tiklaa_blazor_game\\tiklaa_blazor_game\\wwwroot\\gif\\rabbit 1.gif",
+      "SourceId": "tiklaa_blazor_game",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\masaustu_yedek\\GITHUB\\bug-hunting-diaries\\tiklaa_blazor_game\\tiklaa_blazor_game\\wwwroot\\",
+      "BasePath": "_content/tiklaa_blazor_game",
+      "RelativePath": "gif/rabbit 1#[.{fingerprint}]?.gif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ensesrm2i5",
+      "Integrity": "ilDVa3uOu5BZnqrDHSZd7vTIRIj8pErrXGErn/rnQVg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\gif\\rabbit 1.gif"
+    },
+    {
+      "Identity": "D:\\masaustu_yedek\\GITHUB\\bug-hunting-diaries\\tiklaa_blazor_game\\tiklaa_blazor_game\\wwwroot\\gif\\rabbit 2.gif",
+      "SourceId": "tiklaa_blazor_game",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\masaustu_yedek\\GITHUB\\bug-hunting-diaries\\tiklaa_blazor_game\\tiklaa_blazor_game\\wwwroot\\",
+      "BasePath": "_content/tiklaa_blazor_game",
+      "RelativePath": "gif/rabbit 2#[.{fingerprint}]?.gif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "83xhcmzyvd",
+      "Integrity": "POru27agnk6SXd3htghtE3ZPHdbdBbqHl/J6ChG2XqU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\gif\\rabbit 2.gif"
+    },
+    {
+      "Identity": "D:\\masaustu_yedek\\GITHUB\\bug-hunting-diaries\\tiklaa_blazor_game\\tiklaa_blazor_game\\wwwroot\\gif\\turtle 2.gif",
+      "SourceId": "tiklaa_blazor_game",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\masaustu_yedek\\GITHUB\\bug-hunting-diaries\\tiklaa_blazor_game\\tiklaa_blazor_game\\wwwroot\\",
+      "BasePath": "_content/tiklaa_blazor_game",
+      "RelativePath": "gif/turtle 2#[.{fingerprint}]?.gif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "kqthbuced2",
+      "Integrity": "zBMHosmR6xth6gmKwnM+bGYUDtyVgXSltaFjg0Tv4Po=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\gif\\turtle 2.gif"
+    },
+    {
+      "Identity": "D:\\masaustu_yedek\\GITHUB\\bug-hunting-diaries\\tiklaa_blazor_game\\tiklaa_blazor_game\\wwwroot\\gif\\turtle-turtled.gif",
+      "SourceId": "tiklaa_blazor_game",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\masaustu_yedek\\GITHUB\\bug-hunting-diaries\\tiklaa_blazor_game\\tiklaa_blazor_game\\wwwroot\\",
+      "BasePath": "_content/tiklaa_blazor_game",
+      "RelativePath": "gif/turtle-turtled#[.{fingerprint}]?.gif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "143uciwxqm",
+      "Integrity": "v0C9jbEor6Kp+q0qDPBtpTUE32yllpBS4dYMFtDB21o=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\gif\\turtle-turtled.gif"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "app.css",
+      "AssetFile": "D:\\masaustu_yedek\\GITHUB\\bug-hunting-diaries\\tiklaa_blazor_game\\tiklaa_blazor_game\\wwwroot\\app.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2591"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"u9qEka1auR7E3rd3/8/j8hkQdSOYj9bRJ4nYiFDR1sE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Jun 2025 14:49:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-u9qEka1auR7E3rd3/8/j8hkQdSOYj9bRJ4nYiFDR1sE="
+        }
+      ]
+    },
+    {
+      "Route": "app.da95v2qkru.css",
+      "AssetFile": "D:\\masaustu_yedek\\GITHUB\\bug-hunting-diaries\\tiklaa_blazor_game\\tiklaa_blazor_game\\wwwroot\\app.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2591"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"u9qEka1auR7E3rd3/8/j8hkQdSOYj9bRJ4nYiFDR1sE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Jun 2025 14:49:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "da95v2qkru"
+        },
+        {
+          "Name": "label",
+          "Value": "app.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-u9qEka1auR7E3rd3/8/j8hkQdSOYj9bRJ4nYiFDR1sE="
+        }
+      ]
+    },
+    {
+      "Route": "bootstrap/bootstrap.min.bpk8xqwxhs.css",
+      "AssetFile": "D:\\masaustu_yedek\\GITHUB\\bug-hunting-diaries\\tiklaa_blazor_game\\tiklaa_blazor_game\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "162720"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Jun 2025 14:49:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bpk8xqwxhs"
+        },
+        {
+          "Name": "label",
+          "Value": "bootstrap/bootstrap.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg="
+        }
+      ]
+    },
+    {
+      "Route": "bootstrap/bootstrap.min.css",
+      "AssetFile": "D:\\masaustu_yedek\\GITHUB\\bug-hunting-diaries\\tiklaa_blazor_game\\tiklaa_blazor_game\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "162720"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Jun 2025 14:49:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg="
+        }
+      ]
+    },
+    {
+      "Route": "bootstrap/bootstrap.min.css.8inm30yfxf.map",
+      "AssetFile": "D:\\masaustu_yedek\\GITHUB\\bug-hunting-diaries\\tiklaa_blazor_game\\tiklaa_blazor_game\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "449111"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Jun 2025 14:49:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8inm30yfxf"
+        },
+        {
+          "Name": "label",
+          "Value": "bootstrap/bootstrap.min.css.map"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ="
+        }
+      ]
+    },
+    {
+      "Route": "bootstrap/bootstrap.min.css.map",
+      "AssetFile": "D:\\masaustu_yedek\\GITHUB\\bug-hunting-diaries\\tiklaa_blazor_game\\tiklaa_blazor_game\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "449111"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Jun 2025 14:49:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ="
+        }
+      ]
+    },
+    {
+      "Route": "favicon.ifv42okdf2.png",
+      "AssetFile": "D:\\masaustu_yedek\\GITHUB\\bug-hunting-diaries\\tiklaa_blazor_game\\tiklaa_blazor_game\\wwwroot\\favicon.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1148"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Jun 2025 14:49:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ifv42okdf2"
+        },
+        {
+          "Name": "label",
+          "Value": "favicon.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg="
+        }
+      ]
+    },
+    {
+      "Route": "favicon.png",
+      "AssetFile": "D:\\masaustu_yedek\\GITHUB\\bug-hunting-diaries\\tiklaa_blazor_game\\tiklaa_blazor_game\\wwwroot\\favicon.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1148"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Jun 2025 14:49:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg="
+        }
+      ]
+    },
+    {
+      "Route": "gif/cheetah.gif",
+      "AssetFile": "D:\\masaustu_yedek\\GITHUB\\bug-hunting-diaries\\tiklaa_blazor_game\\tiklaa_blazor_game\\wwwroot\\gif\\cheetah.gif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "205237"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/gif"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"so71tOVXPMwUpMXQ+MgBcUqwNsVBKJ5MSFP5+GKVlNw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Jun 2025 09:45:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-so71tOVXPMwUpMXQ+MgBcUqwNsVBKJ5MSFP5+GKVlNw="
+        }
+      ]
+    },
+    {
+      "Route": "gif/cheetah.yo34rejifz.gif",
+      "AssetFile": "D:\\masaustu_yedek\\GITHUB\\bug-hunting-diaries\\tiklaa_blazor_game\\tiklaa_blazor_game\\wwwroot\\gif\\cheetah.gif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "205237"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/gif"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"so71tOVXPMwUpMXQ+MgBcUqwNsVBKJ5MSFP5+GKVlNw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Jun 2025 09:45:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "yo34rejifz"
+        },
+        {
+          "Name": "label",
+          "Value": "gif/cheetah.gif"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-so71tOVXPMwUpMXQ+MgBcUqwNsVBKJ5MSFP5+GKVlNw="
+        }
+      ]
+    },
+    {
+      "Route": "gif/dog 2.gif",
+      "AssetFile": "D:\\masaustu_yedek\\GITHUB\\bug-hunting-diaries\\tiklaa_blazor_game\\tiklaa_blazor_game\\wwwroot\\gif\\dog 2.gif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "542074"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/gif"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BF5cevLtKm66ZEnokw1NgtCuIQD4ZpF+wfZ7KSUby2Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Jun 2025 09:44:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-BF5cevLtKm66ZEnokw1NgtCuIQD4ZpF+wfZ7KSUby2Q="
+        }
+      ]
+    },
+    {
+      "Route": "gif/dog 2.o9a062ue51.gif",
+      "AssetFile": "D:\\masaustu_yedek\\GITHUB\\bug-hunting-diaries\\tiklaa_blazor_game\\tiklaa_blazor_game\\wwwroot\\gif\\dog 2.gif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "542074"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/gif"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BF5cevLtKm66ZEnokw1NgtCuIQD4ZpF+wfZ7KSUby2Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Jun 2025 09:44:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "o9a062ue51"
+        },
+        {
+          "Name": "label",
+          "Value": "gif/dog 2.gif"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-BF5cevLtKm66ZEnokw1NgtCuIQD4ZpF+wfZ7KSUby2Q="
+        }
+      ]
+    },
+    {
+      "Route": "gif/dog.fuwoi5h30b.gif",
+      "AssetFile": "D:\\masaustu_yedek\\GITHUB\\bug-hunting-diaries\\tiklaa_blazor_game\\tiklaa_blazor_game\\wwwroot\\gif\\dog.gif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "348544"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/gif"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ue3kuAp6QYnbrbQzc7w9o+MnpfkzlcR0WLKXJf7z7is=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Jun 2025 09:43:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fuwoi5h30b"
+        },
+        {
+          "Name": "label",
+          "Value": "gif/dog.gif"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ue3kuAp6QYnbrbQzc7w9o+MnpfkzlcR0WLKXJf7z7is="
+        }
+      ]
+    },
+    {
+      "Route": "gif/dog.gif",
+      "AssetFile": "D:\\masaustu_yedek\\GITHUB\\bug-hunting-diaries\\tiklaa_blazor_game\\tiklaa_blazor_game\\wwwroot\\gif\\dog.gif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "348544"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/gif"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ue3kuAp6QYnbrbQzc7w9o+MnpfkzlcR0WLKXJf7z7is=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Jun 2025 09:43:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ue3kuAp6QYnbrbQzc7w9o+MnpfkzlcR0WLKXJf7z7is="
+        }
+      ]
+    },
+    {
+      "Route": "gif/jumpingHome.2mpztuxgit.gif",
+      "AssetFile": "D:\\masaustu_yedek\\GITHUB\\bug-hunting-diaries\\tiklaa_blazor_game\\tiklaa_blazor_game\\wwwroot\\gif\\jumpingHome.gif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "399419"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/gif"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lg4FUZ4b53WqAF1Xp160MytAFJCc0yZdLA+LabPtxEQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Jun 2025 09:46:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2mpztuxgit"
+        },
+        {
+          "Name": "label",
+          "Value": "gif/jumpingHome.gif"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-lg4FUZ4b53WqAF1Xp160MytAFJCc0yZdLA+LabPtxEQ="
+        }
+      ]
+    },
+    {
+      "Route": "gif/jumpingHome.gif",
+      "AssetFile": "D:\\masaustu_yedek\\GITHUB\\bug-hunting-diaries\\tiklaa_blazor_game\\tiklaa_blazor_game\\wwwroot\\gif\\jumpingHome.gif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "399419"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/gif"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lg4FUZ4b53WqAF1Xp160MytAFJCc0yZdLA+LabPtxEQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Jun 2025 09:46:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-lg4FUZ4b53WqAF1Xp160MytAFJCc0yZdLA+LabPtxEQ="
+        }
+      ]
+    },
+    {
+      "Route": "gif/rabbit 1.ensesrm2i5.gif",
+      "AssetFile": "D:\\masaustu_yedek\\GITHUB\\bug-hunting-diaries\\tiklaa_blazor_game\\tiklaa_blazor_game\\wwwroot\\gif\\rabbit 1.gif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "294887"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/gif"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ilDVa3uOu5BZnqrDHSZd7vTIRIj8pErrXGErn/rnQVg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Jun 2025 09:42:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ensesrm2i5"
+        },
+        {
+          "Name": "label",
+          "Value": "gif/rabbit 1.gif"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ilDVa3uOu5BZnqrDHSZd7vTIRIj8pErrXGErn/rnQVg="
+        }
+      ]
+    },
+    {
+      "Route": "gif/rabbit 1.gif",
+      "AssetFile": "D:\\masaustu_yedek\\GITHUB\\bug-hunting-diaries\\tiklaa_blazor_game\\tiklaa_blazor_game\\wwwroot\\gif\\rabbit 1.gif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "294887"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/gif"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ilDVa3uOu5BZnqrDHSZd7vTIRIj8pErrXGErn/rnQVg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Jun 2025 09:42:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ilDVa3uOu5BZnqrDHSZd7vTIRIj8pErrXGErn/rnQVg="
+        }
+      ]
+    },
+    {
+      "Route": "gif/rabbit 2.83xhcmzyvd.gif",
+      "AssetFile": "D:\\masaustu_yedek\\GITHUB\\bug-hunting-diaries\\tiklaa_blazor_game\\tiklaa_blazor_game\\wwwroot\\gif\\rabbit 2.gif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "186124"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/gif"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"POru27agnk6SXd3htghtE3ZPHdbdBbqHl/J6ChG2XqU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Jun 2025 09:43:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "83xhcmzyvd"
+        },
+        {
+          "Name": "label",
+          "Value": "gif/rabbit 2.gif"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-POru27agnk6SXd3htghtE3ZPHdbdBbqHl/J6ChG2XqU="
+        }
+      ]
+    },
+    {
+      "Route": "gif/rabbit 2.gif",
+      "AssetFile": "D:\\masaustu_yedek\\GITHUB\\bug-hunting-diaries\\tiklaa_blazor_game\\tiklaa_blazor_game\\wwwroot\\gif\\rabbit 2.gif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "186124"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/gif"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"POru27agnk6SXd3htghtE3ZPHdbdBbqHl/J6ChG2XqU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Jun 2025 09:43:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-POru27agnk6SXd3htghtE3ZPHdbdBbqHl/J6ChG2XqU="
+        }
+      ]
+    },
+    {
+      "Route": "gif/turtle 2.gif",
+      "AssetFile": "D:\\masaustu_yedek\\GITHUB\\bug-hunting-diaries\\tiklaa_blazor_game\\tiklaa_blazor_game\\wwwroot\\gif\\turtle 2.gif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2362998"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/gif"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zBMHosmR6xth6gmKwnM+bGYUDtyVgXSltaFjg0Tv4Po=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Jun 2025 09:41:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-zBMHosmR6xth6gmKwnM+bGYUDtyVgXSltaFjg0Tv4Po="
+        }
+      ]
+    },
+    {
+      "Route": "gif/turtle 2.kqthbuced2.gif",
+      "AssetFile": "D:\\masaustu_yedek\\GITHUB\\bug-hunting-diaries\\tiklaa_blazor_game\\tiklaa_blazor_game\\wwwroot\\gif\\turtle 2.gif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2362998"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/gif"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zBMHosmR6xth6gmKwnM+bGYUDtyVgXSltaFjg0Tv4Po=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Jun 2025 09:41:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kqthbuced2"
+        },
+        {
+          "Name": "label",
+          "Value": "gif/turtle 2.gif"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-zBMHosmR6xth6gmKwnM+bGYUDtyVgXSltaFjg0Tv4Po="
+        }
+      ]
+    },
+    {
+      "Route": "gif/turtle-turtled.143uciwxqm.gif",
+      "AssetFile": "D:\\masaustu_yedek\\GITHUB\\bug-hunting-diaries\\tiklaa_blazor_game\\tiklaa_blazor_game\\wwwroot\\gif\\turtle-turtled.gif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "288026"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/gif"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"v0C9jbEor6Kp+q0qDPBtpTUE32yllpBS4dYMFtDB21o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Jun 2025 09:41:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "143uciwxqm"
+        },
+        {
+          "Name": "label",
+          "Value": "gif/turtle-turtled.gif"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-v0C9jbEor6Kp+q0qDPBtpTUE32yllpBS4dYMFtDB21o="
+        }
+      ]
+    },
+    {
+      "Route": "gif/turtle-turtled.gif",
+      "AssetFile": "D:\\masaustu_yedek\\GITHUB\\bug-hunting-diaries\\tiklaa_blazor_game\\tiklaa_blazor_game\\wwwroot\\gif\\turtle-turtled.gif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "288026"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/gif"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"v0C9jbEor6Kp+q0qDPBtpTUE32yllpBS4dYMFtDB21o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Jun 2025 09:41:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-v0C9jbEor6Kp+q0qDPBtpTUE32yllpBS4dYMFtDB21o="
+        }
+      ]
+    },
+    {
+      "Route": "tiklaa_blazor_game.bundle.scp.css",
+      "AssetFile": "D:\\masaustu_yedek\\GITHUB\\bug-hunting-diaries\\tiklaa_blazor_game\\tiklaa_blazor_game\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\tiklaa_blazor_game.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5919"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3aDJk0mqigLvkMAaydfu5OulaTMC+J2HlFfw6f6THpQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Jun 2025 14:49:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3aDJk0mqigLvkMAaydfu5OulaTMC+J2HlFfw6f6THpQ="
+        }
+      ]
+    },
+    {
+      "Route": "tiklaa_blazor_game.ryovzr8o5j.bundle.scp.css",
+      "AssetFile": "D:\\masaustu_yedek\\GITHUB\\bug-hunting-diaries\\tiklaa_blazor_game\\tiklaa_blazor_game\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\tiklaa_blazor_game.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5919"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3aDJk0mqigLvkMAaydfu5OulaTMC+J2HlFfw6f6THpQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Jun 2025 14:49:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ryovzr8o5j"
+        },
+        {
+          "Name": "label",
+          "Value": "tiklaa_blazor_game.bundle.scp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3aDJk0mqigLvkMAaydfu5OulaTMC+J2HlFfw6f6THpQ="
+        }
+      ]
+    },
+    {
+      "Route": "tiklaa_blazor_game.ryovzr8o5j.styles.css",
+      "AssetFile": "D:\\masaustu_yedek\\GITHUB\\bug-hunting-diaries\\tiklaa_blazor_game\\tiklaa_blazor_game\\obj\\Debug\\net8.0\\scopedcss\\bundle\\tiklaa_blazor_game.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5919"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3aDJk0mqigLvkMAaydfu5OulaTMC+J2HlFfw6f6THpQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Jun 2025 14:49:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ryovzr8o5j"
+        },
+        {
+          "Name": "label",
+          "Value": "tiklaa_blazor_game.styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3aDJk0mqigLvkMAaydfu5OulaTMC+J2HlFfw6f6THpQ="
+        }
+      ]
+    },
+    {
+      "Route": "tiklaa_blazor_game.styles.css",
+      "AssetFile": "D:\\masaustu_yedek\\GITHUB\\bug-hunting-diaries\\tiklaa_blazor_game\\tiklaa_blazor_game\\obj\\Debug\\net8.0\\scopedcss\\bundle\\tiklaa_blazor_game.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5919"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3aDJk0mqigLvkMAaydfu5OulaTMC+J2HlFfw6f6THpQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Jun 2025 14:49:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3aDJk0mqigLvkMAaydfu5OulaTMC+J2HlFfw6f6THpQ="
+        }
+      ]
+    }
+  ]
+}

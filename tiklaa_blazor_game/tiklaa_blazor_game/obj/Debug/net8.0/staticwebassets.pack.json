@@ -1,0 +1,77 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\masaustu_yedek\\GITHUB\\bug-hunting-diaries\\tiklaa_blazor_game\\tiklaa_blazor_game\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\tiklaa_blazor_game.bundle.scp.css",
+      "PackagePath": "staticwebassets\\tiklaa_blazor_game.ryovzr8o5j.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\masaustu_yedek\\GITHUB\\bug-hunting-diaries\\tiklaa_blazor_game\\tiklaa_blazor_game\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "D:\\masaustu_yedek\\GITHUB\\bug-hunting-diaries\\tiklaa_blazor_game\\tiklaa_blazor_game\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\masaustu_yedek\\GITHUB\\bug-hunting-diaries\\tiklaa_blazor_game\\tiklaa_blazor_game\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\masaustu_yedek\\GITHUB\\bug-hunting-diaries\\tiklaa_blazor_game\\tiklaa_blazor_game\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "D:\\masaustu_yedek\\GITHUB\\bug-hunting-diaries\\tiklaa_blazor_game\\tiklaa_blazor_game\\wwwroot\\gif\\cheetah.gif",
+      "PackagePath": "staticwebassets\\gif\\cheetah.gif"
+    },
+    {
+      "Id": "D:\\masaustu_yedek\\GITHUB\\bug-hunting-diaries\\tiklaa_blazor_game\\tiklaa_blazor_game\\wwwroot\\gif\\dog 2.gif",
+      "PackagePath": "staticwebassets\\gif\\dog 2.gif"
+    },
+    {
+      "Id": "D:\\masaustu_yedek\\GITHUB\\bug-hunting-diaries\\tiklaa_blazor_game\\tiklaa_blazor_game\\wwwroot\\gif\\dog.gif",
+      "PackagePath": "staticwebassets\\gif\\dog.gif"
+    },
+    {
+      "Id": "D:\\masaustu_yedek\\GITHUB\\bug-hunting-diaries\\tiklaa_blazor_game\\tiklaa_blazor_game\\wwwroot\\gif\\jumpingHome.gif",
+      "PackagePath": "staticwebassets\\gif\\jumpingHome.gif"
+    },
+    {
+      "Id": "D:\\masaustu_yedek\\GITHUB\\bug-hunting-diaries\\tiklaa_blazor_game\\tiklaa_blazor_game\\wwwroot\\gif\\rabbit 1.gif",
+      "PackagePath": "staticwebassets\\gif\\rabbit 1.gif"
+    },
+    {
+      "Id": "D:\\masaustu_yedek\\GITHUB\\bug-hunting-diaries\\tiklaa_blazor_game\\tiklaa_blazor_game\\wwwroot\\gif\\rabbit 2.gif",
+      "PackagePath": "staticwebassets\\gif\\rabbit 2.gif"
+    },
+    {
+      "Id": "D:\\masaustu_yedek\\GITHUB\\bug-hunting-diaries\\tiklaa_blazor_game\\tiklaa_blazor_game\\wwwroot\\gif\\turtle 2.gif",
+      "PackagePath": "staticwebassets\\gif\\turtle 2.gif"
+    },
+    {
+      "Id": "D:\\masaustu_yedek\\GITHUB\\bug-hunting-diaries\\tiklaa_blazor_game\\tiklaa_blazor_game\\wwwroot\\gif\\turtle-turtled.gif",
+      "PackagePath": "staticwebassets\\gif\\turtle-turtled.gif"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.tiklaa_blazor_game.props",
+      "PackagePath": "build\\tiklaa_blazor_game.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.tiklaa_blazor_game.props",
+      "PackagePath": "buildMultiTargeting\\tiklaa_blazor_game.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.tiklaa_blazor_game.props",
+      "PackagePath": "buildTransitive\\tiklaa_blazor_game.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.tiklaa_blazor_game.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.tiklaa_blazor_game.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

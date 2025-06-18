@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("oop_temelleri_1")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8dbaa8b505d5b50c00522ec27aa5c10571f8c58d")]
 [assembly: System.Reflection.AssemblyProductAttribute("oop_temelleri_1")]
 [assembly: System.Reflection.AssemblyTitleAttribute("oop_temelleri_1")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,0 +1,52 @@
+﻿@page "/"
+@rendermode InteractiveServer 
+<!-- OYUNA GİT BUTONU ÇALIŞMADI COZUMU BU !!!!!!-->
+@inject NavigationManager Navigation
+<!--sayfalar arasinda gezinmek icin navigationmanaager servisini injection ettik -->
+<PageTitle>Ana Sayfa </PageTitle>
+<!--tarayicida gozukecek sayfa basligi-->
+
+<h1 style="text-align: center; margin-top: 40px;">Merhaba, Tiklaa Game'e hoş geldin!</h1>
+
+<!--display: flex; justify-content: center; → Yatay ortalama
+align-items: center; → Dikey ortalama (div’in yüksekliğine göre)-->
+
+@* <div style="display: flex; justify-content: center; align-items: center; height: 400px;">
+    <img src="gif/jumpinghome.gif" alt="Zıplayan hayvan" style="width: 400px; height: auto;" />
+</div> *@
+
+<div style="display: flex; justify-content: center; align-items: center; height: 400px;">
+    <img src="gif/jumpinghome.gif"
+         alt="Zıplayan hayvan"
+         style="width: 400px; height: auto; transition: transform 0.3s ease;"
+         onmouseover="this.style.transform='translateY(-20px) rotate(5deg)'"
+         onmouseout="this.style.transform='translateY(30px) rotate(0deg)'"
+      />
+</div>
+
+@* <div style="text-align: center;">
+    <input type="button" value="Oyun Alanına Git" @onclick="GoToCounter" style="padding: 10px 20px; font-size: 16px;" />
+    <input type="button" value="Leaderboard'a Git'" @onclick="GoToLeaderboard" style="padding: 10px 20px; font-size: 16px;" />
+</div>
+ *@
+
+<div style="text-align: center; margin-top: 30px;">
+    <input type="button" value="Oyun Alanına Git"
+           @onclick="GoToCounter"
+           style="padding: 12px 24px; font-size: 16px; margin: 10px; background-color: #6c63ff; color: white; border: none; border-radius: 12px; cursor: pointer; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); transition: background-color 0.3s ease, transform 0.2s ease;" />
+
+    <input type="button" value="Leaderboard'a Git"
+           @onclick="GoToLeaderboard"
+           style="padding: 12px 24px; font-size: 16px; margin: 10px; background-color: #6c63ff; color: white; border: none; border-radius: 12px; cursor: pointer; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); transition: background-color 0.3s ease, transform 0.2s ease;" />
+</div>
+
+@code {
+    private void GoToCounter()
+    {
+        Navigation.NavigateTo("/game");
+    }
+    private void GoToLeaderboard()
+    {
+        Navigation.NavigateTo("/leaderboard");
+    }
+}

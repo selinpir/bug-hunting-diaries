@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\tiklaa_blazor_game.props" />
+</Project>
