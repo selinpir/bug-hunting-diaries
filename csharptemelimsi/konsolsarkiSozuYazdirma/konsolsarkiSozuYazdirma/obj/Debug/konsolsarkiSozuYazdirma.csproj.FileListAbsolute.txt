@@ -1,0 +1,7 @@
+D:\masaustu_yedek\GITHUB\bug-hunting-diaries\csharptemelimsi\konsolsarkiSozuYazdirma\konsolsarkiSozuYazdirma\bin\Debug\konsolsarkiSozuYazdirma.exe.config
+D:\masaustu_yedek\GITHUB\bug-hunting-diaries\csharptemelimsi\konsolsarkiSozuYazdirma\konsolsarkiSozuYazdirma\bin\Debug\konsolsarkiSozuYazdirma.exe
+D:\masaustu_yedek\GITHUB\bug-hunting-diaries\csharptemelimsi\konsolsarkiSozuYazdirma\konsolsarkiSozuYazdirma\bin\Debug\konsolsarkiSozuYazdirma.pdb
+D:\masaustu_yedek\GITHUB\bug-hunting-diaries\csharptemelimsi\konsolsarkiSozuYazdirma\konsolsarkiSozuYazdirma\obj\Debug\konsolsarkiSozuYazdirma.csproj.AssemblyReference.cache
+D:\masaustu_yedek\GITHUB\bug-hunting-diaries\csharptemelimsi\konsolsarkiSozuYazdirma\konsolsarkiSozuYazdirma\obj\Debug\konsolsarkiSozuYazdirma.csproj.CoreCompileInputs.cache
+D:\masaustu_yedek\GITHUB\bug-hunting-diaries\csharptemelimsi\konsolsarkiSozuYazdirma\konsolsarkiSozuYazdirma\obj\Debug\konsolsarkiSozuYazdirma.exe
+D:\masaustu_yedek\GITHUB\bug-hunting-diaries\csharptemelimsi\konsolsarkiSozuYazdirma\konsolsarkiSozuYazdirma\obj\Debug\konsolsarkiSozuYazdirma.pdb

@@ -1,0 +1,7 @@
+D:\masaustu_yedek\GITHUB\bug-hunting-diaries\csharptemelimsi\konsol2\konsol2\bin\Debug\konsol2.exe.config
+D:\masaustu_yedek\GITHUB\bug-hunting-diaries\csharptemelimsi\konsol2\konsol2\bin\Debug\konsol2.exe
+D:\masaustu_yedek\GITHUB\bug-hunting-diaries\csharptemelimsi\konsol2\konsol2\bin\Debug\konsol2.pdb
+D:\masaustu_yedek\GITHUB\bug-hunting-diaries\csharptemelimsi\konsol2\konsol2\obj\Debug\konsol2.csproj.AssemblyReference.cache
+D:\masaustu_yedek\GITHUB\bug-hunting-diaries\csharptemelimsi\konsol2\konsol2\obj\Debug\konsol2.csproj.CoreCompileInputs.cache
+D:\masaustu_yedek\GITHUB\bug-hunting-diaries\csharptemelimsi\konsol2\konsol2\obj\Debug\konsol2.exe
+D:\masaustu_yedek\GITHUB\bug-hunting-diaries\csharptemelimsi\konsol2\konsol2\obj\Debug\konsol2.pdb

@@ -1,0 +1,7 @@
+D:\masaustu_yedek\GITHUB\bug-hunting-diaries\csharptemelimsi\konsol3Degiskenler\konsol3Degiskenler\bin\Debug\konsol3Degiskenler.exe.config
+D:\masaustu_yedek\GITHUB\bug-hunting-diaries\csharptemelimsi\konsol3Degiskenler\konsol3Degiskenler\bin\Debug\konsol3Degiskenler.exe
+D:\masaustu_yedek\GITHUB\bug-hunting-diaries\csharptemelimsi\konsol3Degiskenler\konsol3Degiskenler\bin\Debug\konsol3Degiskenler.pdb
+D:\masaustu_yedek\GITHUB\bug-hunting-diaries\csharptemelimsi\konsol3Degiskenler\konsol3Degiskenler\obj\Debug\konsol3Degiskenler.csproj.AssemblyReference.cache
+D:\masaustu_yedek\GITHUB\bug-hunting-diaries\csharptemelimsi\konsol3Degiskenler\konsol3Degiskenler\obj\Debug\konsol3Degiskenler.csproj.CoreCompileInputs.cache
+D:\masaustu_yedek\GITHUB\bug-hunting-diaries\csharptemelimsi\konsol3Degiskenler\konsol3Degiskenler\obj\Debug\konsol3Degiskenler.exe
+D:\masaustu_yedek\GITHUB\bug-hunting-diaries\csharptemelimsi\konsol3Degiskenler\konsol3Degiskenler\obj\Debug\konsol3Degiskenler.pdb
